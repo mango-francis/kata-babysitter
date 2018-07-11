@@ -1,11 +1,31 @@
 # Babysitter Kata
 
-## Assumptions Made
+## Assumptions Made during the Design
 - If not specified, the child's bed time is 8 PM or 20:00 hours (military / 24 hrs)
 - Also, you will start working at exactly 5 PM or 17:00 hours
 - Finally, you will end your working shift at exactly 4 AM
 - Also, entered time values will be assumed to be exactly on the hour (XX:00 PM/AM
 )
+
+## How to run the program simulator and test suite
+
+To run the program simulator
+```
+// from the project root
+$ cd /out/production/kata-babysitter/
+
+// you can also run the simulator by passing no args
+// will use default values
+
+$ java BabySitter.BabySitterSimulat <start_time> <end_time> <bed_time>
+```
+
+To run the test suite
+```
+$ cd /out/production/kata-babysitter/
+
+$ java BabySitterTester.
+```
 
 ## Background
 This kata simulates a babysitter working and getting paid for one night.  The rules are pretty straight forward.
