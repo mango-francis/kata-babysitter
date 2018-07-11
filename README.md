@@ -9,7 +9,10 @@
 
 ## How to run the program simulator and test suite
 
+### From a Linux terminal
+
 To run the program simulator
+
 ```
 // from the project root
 $ cd /out/production/kata-babysitter/
@@ -24,10 +27,23 @@ To run the test suite
 ```
 $ cd /out/production/kata-babysitter/
 
-$ java BabySitterTester.
+$ java -cp .:BabySitterTest/* BabySitterTester.TestRunner
+```
+
+To run both the simulator and the test suite
+
+ *However, default values for the simulator*
+
+```
+// navigate to this directory from project root folder
+$ cd /out/prodction/kata-babysitter/
+
+// Run the run.sh file (multiple ways to run it)
+$ sh run.sh
 ```
 
 ## Background
+
 This kata simulates a babysitter working and getting paid for one night.  The rules are pretty straight forward.
 
 The babysitter:
