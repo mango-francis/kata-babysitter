@@ -1,5 +1,12 @@
 # Babysitter Kata
 
+## Assumptions Made
+- If not specified, the child's bed time is 8 PM or 20:00 hours (military / 24 hrs)
+- Also, you will start working at exactly 5 PM or 17:00 hours
+- Finally, you will end your working shift at exactly 4 AM
+- Also, entered time values will be assumed to be exactly on the hour (XX:00 PM/AM
+)
+
 ## Background
 This kata simulates a babysitter working and getting paid for one night.  The rules are pretty straight forward.
 
